@@ -1,0 +1,100 @@
+/*Existen dos maneras fundamentales de darle estilos a los elementos/etiquetas de html*/
+
+/*
+1) Mediante selector de etiquetas o también llamadas selector de elementos
+2) Mediante selector de clases
+3) Mediante ID
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Aplicamos estilos al header*/
+.header{
+/*propiedad: valor;*/
+background-color: #274060;
+}
+
+header .nav{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+header .nav a:hover{
+    color: black;
+    font-weight: 800;
+}
+
+/*Aplicamos estilos al main*/
+
+main{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+main section{
+    margin: 5px;
+}
+main section div{
+    width: 19rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+main section div img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+main section div h3{
+    text-align: center;
+    font-size: large;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main section div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Aplicamos estilos al footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #335C81;
+    flex-wrap: wrap;
+}
+
+footer .copy{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+footer .redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
