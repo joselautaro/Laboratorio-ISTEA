@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.padre-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

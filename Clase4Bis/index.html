@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Cotizador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+
+    <h1>Cotizador de Seguros</h1>
+
+    <!-- Formulario de cotización -->
+    <div class="container">
+        <form class="mt-4" id="cotizadorForm">
+            <label for="marca" class="form-label mt-4">Marca:</label>
+            <input type="text" class="form-control" id="marca" autofocus>
+            <label for="modelo" class="form-label mt-4">Modelo:</label>
+            <input type="text" class="form-control" id="modelo">
+            <label for="Precio" class="form-label mt-4">Precio:</label>
+            <input type="text" class="form-control" id="precio">
+            <label for="descuento" class="form-label mt-4">Descuento:</label>
+            <input type="text" class="form-control" id="descuento">
+            <button type="submit">Calcular cotización</button>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Resultado de la cotización</h2>
+                <div id="cotizacionInfo">
+                    <p id="modalMessage"></p>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

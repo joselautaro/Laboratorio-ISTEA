@@ -1,0 +1,109 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Aplicamos estilos al div contenedor */
+.form-container {
+    background-color: #ccc;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+/* Aplicamos estilos a las etiquetas internas del form */
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Media querys para diferenes tamaños de pantalla */
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .form-container {
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+        width: 250px;
+    }
+
+    input,
+    textarea,
+    select {
+        display: block;
+        width: 95%;
+        padding: 9px;
+        margin-bottom: 7px;
+        border: none;
+        border-radius: 7px;
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .form-container {
+        border-radius: 2px;
+        width: 225px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    input,
+    textarea,
+    select {
+        display: block;
+        width: 95%;
+        padding: 6px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        border: none;
+        border-radius: 10px;
+        background-color: #000;
+        color: #fff;
+    }
+}
+
