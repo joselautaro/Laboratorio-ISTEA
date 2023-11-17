@@ -1,0 +1,59 @@
+/* Estilos generales */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f1c6c6;
+    color: #2e2b2b;
+    transition: background-color 0.3s ease;
+    padding-top: 50px;
+}   
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+/* Dark mode */
+body.dark-mode{
+    background-color: #222;
+    color: #fff;
+}
+
+.card.dark-mode{
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilos al reloj */
+#clock{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos al modal */
+.modal-content{
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.modal-body{
+    padding: 20px;
+}
+
+/* Dark Mode para el modal */
+.modal-content.dark-mode{
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+.modal-header.dark-mode{
+    background-color: #555;
+    color: #fff;
+}
